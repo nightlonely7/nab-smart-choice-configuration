@@ -1,7 +1,6 @@
 spring:
   application:
     name: log-service
-  datasource:
-    generate-unique-name: false
+
 server:
   port: 8083
