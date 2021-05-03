@@ -2,7 +2,7 @@ spring:
   application:
     name: product-price-service
   redis:
-    host: http://host.docker.internal:6379
+    host: http://host.docker.internal
 eureka:
   client:
     service-url:
