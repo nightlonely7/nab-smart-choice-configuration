@@ -1,7 +1,6 @@
 spring:
   application:
     name: product-price-service
-  datasource:
-    generate-unique-name: false
+
 server:
   port: 8082
