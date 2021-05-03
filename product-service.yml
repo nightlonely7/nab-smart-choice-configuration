@@ -2,6 +2,7 @@
 spring:
   application:
     name: product-service
-
+  kafka:
+    bootstrap-servers: http://host.docker.internal:9092
 server:
   port: 8081
