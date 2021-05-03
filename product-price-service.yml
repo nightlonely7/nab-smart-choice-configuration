@@ -1,6 +1,6 @@
 spring:
   application:
-    name: product-price-service-dev
+    name: product-price-service
   datasource:
     generate-unique-name: false
 server:
