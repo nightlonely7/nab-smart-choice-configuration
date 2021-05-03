@@ -4,7 +4,5 @@ spring:
     name: product-service
   datasource:
     generate-unique-name: false
-  kafka:
-    bootstrap-servers: 192.168.1.12:9092
 server:
   port: 8081
