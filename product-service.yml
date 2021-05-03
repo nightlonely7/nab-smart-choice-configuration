@@ -4,5 +4,9 @@ spring:
     name: product-service
   kafka:
     bootstrap-servers: http://host.docker.internal:9092
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
 server:
   port: 8081
