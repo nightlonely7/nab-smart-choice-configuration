@@ -1,11 +1,13 @@
 spring:
   application:
     name: product-price-service
+  redis:
+    host: http://host.docker.internal:6379
 eureka:
   client:
     service-url:
       defaultZone: http://host.docker.internal:8761/eureka/
-  redis:
-    host: http://host.docker.internal:6379
+  instance:
+    prefer-ip-address: true
 server:
   port: 8082
