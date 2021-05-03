@@ -4,6 +4,8 @@ spring:
 eureka:
   client:
     service-url:
-      default-zone: http://host.docker.internal:8761/eureka/
+      defaultZone: http://host.docker.internal:8761/eureka/
+  redis:
+    host: http://host.docker.internal:6379
 server:
   port: 8082
