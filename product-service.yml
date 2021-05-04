@@ -12,3 +12,6 @@ eureka:
     prefer-ip-address: true
 server:
   port: 8081
+
+product-price-service:
+  service-id: product-price-service
