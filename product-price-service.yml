@@ -4,10 +4,11 @@ spring:
 #   redis:
 #     host: host.docker.internal
 eureka:
+  instance:
+    prefer-ip-address: true
 #   client:
 #     service-url:
 #       defaultZone: http://host.docker.internal:8761/eureka/
-  instance:
-    prefer-ip-address: true
+
 server:
   port: 8082
