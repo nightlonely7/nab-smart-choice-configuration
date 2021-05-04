@@ -1,12 +1,12 @@
 spring:
   application:
     name: product-price-service
-  redis:
-    host: host.docker.internal
+#   redis:
+#     host: host.docker.internal
 eureka:
-  client:
-    service-url:
-      defaultZone: http://host.docker.internal:8761/eureka/
+#   client:
+#     service-url:
+#       defaultZone: http://host.docker.internal:8761/eureka/
   instance:
     prefer-ip-address: true
 server:
